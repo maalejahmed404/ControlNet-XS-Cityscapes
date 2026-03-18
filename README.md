@@ -72,7 +72,11 @@ We evaluated three separate pipelines on 100 hold-out Cityscapes samples. The me
 
 ### Visual Comparison (Sample 9)
 
-Observe how spatial adherence evolves across the three generative paradigms.
+**Prompt Context:** *An automatically generated Cityscapes street scene caption describing cars, buildings, and roads.*
+
+| Ground Truth (Original) | Edge Map (Segmentation) |
+|:---:|:---:|
+| <img src="data/eval/images/9.png" width="400"/> | <img src="data/eval/conditioning_images/9.png" width="400"/> |
 
 | Baseline (Prompt Only) | Competitor (`doguilmak`) | ControlNet-XS (Ours, 2 Epochs) |
 |:---:|:---:|:---:|

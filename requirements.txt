@@ -1,0 +1,41 @@
+# Core ML Frameworks
+torch
+torchvision
+torchaudio
+diffusers[torch]
+transformers
+accelerate
+xformers
+clip @ git+https://github.com/openai/CLIP.git
+
+# Image Processing & Utilities
+pillow
+numpy
+scipy
+omegaconf
+opencv-python-headless
+
+# ControlNet-XS / Latent-Diffusion Dependencies
+webdataset
+open-clip-torch
+streamlit
+pudb
+
+# Training Helpers & Metrics
+pytorch-lightning
+einops
+wandb
+albumentations
+natsort
+fairscale
+fire
+kornia
+invisible-watermark
+basicsr
+
+# Metrics Evaluation (Phase 4: FID, CLIPScore)
+torchmetrics[image]
+torchmetrics[multimodal]
+
+# Memory Optimization (Crucial for GPU Training on L40/24GB)
+datasets

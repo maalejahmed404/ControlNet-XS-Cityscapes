@@ -1,0 +1,18 @@
+========================================
+Results for generation directory: results/baseline_a_prompt_only
+FID (Visual Realism)   : 12.7867
+CLIPScore (Text Align) : 28.5783
+mIoU Proxy (Ctrl Align): 0.3869
+========================================
+========================================
+Results for generation directory: results/public_substitute_doguilmak
+FID (Visual Realism)   : 2.6707
+CLIPScore (Text Align) : 28.4848
+mIoU Proxy (Ctrl Align): 0.4708
+========================================
+========================================
+Results for generation directory: results/controlnet_xs
+FID (Visual Realism)   : 24.9313
+CLIPScore (Text Align) : 26.2204
+mIoU Proxy (Ctrl Align): 0.4537
+========================================

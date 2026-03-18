@@ -72,7 +72,7 @@ We evaluated three separate pipelines on 100 hold-out Cityscapes samples. The me
 
 ### Visual Comparison (Sample 9)
 
-**Prompt Context:** *An automatically generated Cityscapes street scene caption describing cars, buildings, and roads.* \\
+**Prompt Context:** *An automatically generated Cityscapes street scene caption describing cars, buildings, and roads.* $\\$
 **Prompt:** *here is a bus that is driving down the street in the city.*
 
 | Ground Truth (Original) | Edge Map (Segmentation) |
